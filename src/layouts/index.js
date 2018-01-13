@@ -4,11 +4,12 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import '../../public/static/assets/css/main.css';
+import './index.scss';
 
 const Main = ({ children }) => (
   <div id="wrapper">
     <Helmet
-      title="Gatsby Default Starter"
+      title="Brian's Personal Site"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },

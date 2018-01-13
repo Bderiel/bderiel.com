@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 const Banner = () => (
   <section id="banner" className="major">
-    <div className="inner">
+    <div className="fade inner">
       <header className="major">
         <h1>Brian Deriel</h1>
       </header>
