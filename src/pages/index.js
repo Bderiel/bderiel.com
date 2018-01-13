@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
 
+import Header from '../components/Header';
+import Banner from '../components/Header/Banner';
+import AllProjects from '../components/Items';
+import Footer from '../components/Footer';
+
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+  <Fragment>
+    <Header />
+    <Banner />
+    <AllProjects />
+    <Footer />
+  </Fragment>
+);
 
 export default IndexPage
