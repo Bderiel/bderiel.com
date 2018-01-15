@@ -9,7 +9,12 @@
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-react-next": "^1.0.7",
     "gatsby-plugin-sass": "^1.0.15",
-    "react-helmet": "^5.2.0"
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.28",
+    "nuka-carousel": "^3.0.1",
+    "react-helmet": "^5.2.0",
+    "react-image-gallery": "^0.8.7",
+    "react-responsive-carousel": "^3.1.30"
   },
   "keywords": [
     "gatsby"

@@ -1,16 +1,15 @@
 import React from 'react';
 
-import SmallTile from './SmallTile';
-import LongTile from './LongTile';
+import Tile from './Tile';
 
 
 const AllProjects = () => (
   <div id="main">
     <section id="one" className="tiles">
-      <SmallTile />
-      <LongTile />
-      <SmallTile />
-      <LongTile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
     </section>
   </div>
 );

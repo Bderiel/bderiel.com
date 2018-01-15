@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-import '../../public/static/assets/css/main.css';
+import '../../public/assets/css/main.css';
 import './index.scss';
 
 const Main = ({ children }) => (

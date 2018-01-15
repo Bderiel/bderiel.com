@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SmallTile = () => (
+const Tile = () => (
   <article>
     <span className="image">
-      <img src="images/pic01.jpg" alt="" />
+      <img src="/images/pic01.jpg" alt="" />
     </span>
     <header className="major">
       <h3><a href="landing.html" className="link">Aliquam</a></h3>
@@ -12,4 +12,4 @@ const SmallTile = () => (
   </article>
 );
 
-export default SmallTile;
+export default Tile;

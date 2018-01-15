@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
+import React, { Fragment } from 'react';
+import Link from 'gatsby-link';
 
 import Header from '../components/Header';
 import Banner from '../components/Header/Banner';
-import AllProjects from '../components/Items';
+import AllProjects from '../components/Tiles';
 import Footer from '../components/Footer';
 
 const IndexPage = () => (
@@ -15,4 +15,4 @@ const IndexPage = () => (
   </Fragment>
 );
 
-export default IndexPage
+export default IndexPage;
