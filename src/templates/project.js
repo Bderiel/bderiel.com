@@ -18,6 +18,9 @@ export default function Template({
         <header className="major">
           <h1>{post.frontmatter.title}</h1>
         </header>
+        <div className="blurb">
+          <p>League of Legends companion Android application</p>
+        </div>
         <div className="content">
           <ul className="actions">
             {skills.map(el => (
@@ -32,18 +35,24 @@ export default function Template({
     <Fragment>
       <Header />
       {banner}
-      <Carousel showArrows>
+      <Carousel
+        autoPlay
+        infiniteLoop
+        showStatus={false}
+        interval={3000}
+        showArrows={false}
+      >
         {images.map(el => (
-            <div className=''>
-              <img src={el} />
-            </div>
-          ))}
+          <div className="photo-carousel">
+            <img alt="failfish" src={el} />
+          </div>
+        ))}
       </Carousel>
       <div className="blog-post-container">
         <Helmet title={post.frontmatter.title} />
         <div className="blog-post">
           <h1>About Project:</h1>
-          <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className="description" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
       </div>
       <Footer />

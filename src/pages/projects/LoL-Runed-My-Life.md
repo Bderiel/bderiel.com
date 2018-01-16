@@ -8,4 +8,4 @@ images: "/images/lol1.png,/images/lol2.png,/images/lol3.png"
 Description: "League of Legends Runed My Life is a full stack application that displays and explains the newly released rune system for League of Legends via a microservice API that we created. It also gives you champion data and player's recent match history by way of integrating the League of Legends API. This project was built over the course of a three day hackathon at Fullstack Academy."
 ---
 
-Oooooh-weeee, my second blog post!
+League of Legends Runed My Life is a full stack application that displays and explains the newly released rune system for League of Legends via a microservice API that we created. It also gives you champion data and player's recent match history by way of integrating the League of Legends API. This project was built over the course of a three day hackathon at Fullstack Academy.

@@ -235,3 +235,25 @@
 				}
 
 		}
+		
+		.selected{
+			display: flex;
+	    align-items: center;
+		}
+		
+		.photo-carousel{
+			//max-height: 70vh;
+			max-width: 50vh;
+			img{
+				height: 100%;
+			}
+		}
+
+		.description{
+		  margin-left: 5%;
+      margin-right: 5%;
+		}
+
+		.blurb{
+			margin-top: 3%;
+		}
