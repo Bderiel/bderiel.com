@@ -19,7 +19,7 @@ export default function Template({
           <h1>{post.frontmatter.title}</h1>
         </header>
         <div className="blurb">
-          <p>League of Legends companion Android application</p>
+          <p>{post.frontmatter.subtitle}</p>
         </div>
         <div className="content">
           <ul className="actions">
@@ -51,9 +51,13 @@ export default function Template({
       <div className="blog-post-container">
         <Helmet title={post.frontmatter.title} />
         <div className="blog-post">
-          <h1>About Project:</h1>
+          <h1 className="post-title">About Project:</h1>
           <div className="description" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
+        <ul className="actions post-buttons">
+          <li><a href={post.frontmatter.projectLink} className="button">Link</a></li>
+          <li><a href={post.frontmatter.gitLink} className="icon alt fa-github"><span className="label">GitHub</span></a></li>
+        </ul>
       </div>
       <Footer />
     </Fragment>
@@ -70,6 +74,9 @@ export const pageQuery = graphql`
         title
         skills
         images
+        subtitle
+        gitLink
+        projectLink
       }
     }
   }

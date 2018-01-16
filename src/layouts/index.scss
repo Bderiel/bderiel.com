@@ -242,10 +242,11 @@
 		}
 		
 		.photo-carousel{
-			//max-height: 70vh;
-			max-width: 50vh;
+			height: 80vh;
+			max-width: 80vw;
 			img{
 				height: 100%;
+				width: 100%;
 			}
 		}
 
@@ -256,4 +257,12 @@
 
 		.blurb{
 			margin-top: 3%;
+		}
+		
+		.post-buttons{
+			text-align: center;
+		}
+
+		.post-title{
+			margin-left: 1%;
 		}
