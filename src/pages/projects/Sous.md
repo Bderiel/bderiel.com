@@ -3,10 +3,10 @@ path: "/Sous"
 date: "2017-07-12T17:12:33.962Z"
 title: "SousAIs"
 subtitle: "An Amazon Alexa skill and Web Application that acts as your personal Sous Chef in the kitchen"
-skills: "React,Redux,Sequelize,Express,AWS Lambda"
+skills: "React,Redux,Sequelize,Express,AWS Lambda,Sockets,Alexa SDK"
 images: "/images/lol1.png,/images/lol2.png,/images/lol3.png"
 projectLink: 'https://github.com/PatPetillo/SousAIs/blob/master/client/components/Carousel.jsx'
 gitLink: 'test1'
 ---
 
-League of Legends Runed My Life is a full stack application that displays and explains the newly released rune system for League of Legends via a microservice API that we created. It also gives you champion data and player's recent match history by way of integrating the League of Legends API. This project was built over the course of a three day hackathon at Fullstack Academy. My primary motivation for this project was learning how to use React Native and what difference it had to plain React. It was a noticeable change but the biggest strenght is that you can make cross platfrom application and keep much of the same logic espcially in regards to IOS and Android. 
+This is my Capstone project for Fullstack Academy. SousAIs has two major components, the Amazon Alexa skill and the React Front-End. Built using React/Redux and Alexa SDK with an Express/Squelize microservice API that integrates Nutritionix and Spoonacular APIs. Our application allows a user to add/delete items to their fridge and create recipes based on what was available and other user decided variables. We had to build two different User Interfaces that made one cohesive experience in about a week and a half. We organized ourselves by using a trello board and had daily stand-ups to discuss our progress and goals.
