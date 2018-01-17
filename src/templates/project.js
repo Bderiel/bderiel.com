@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
 import { Carousel } from 'react-responsive-carousel';
 import '../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css';
 import Header from '../components/Header';
@@ -59,6 +60,8 @@ export default function Template({
           <li><a href={post.frontmatter.gitLink} className="icon alt fa-github"><span className="label">GitHub</span></a></li>
         </ul>
       </div>
+      <hr />
+      <Link to="/" className="button">Home</Link>
       <Footer />
     </Fragment>
   );

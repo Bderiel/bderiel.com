@@ -6,13 +6,34 @@ import Banner from '../components/Header/Banner';
 import AllProjects from '../components/Tiles';
 import Footer from '../components/Footer';
 
-const IndexPage = () => (
-  <Fragment>
-    <Header />
-    <Banner />
-    <AllProjects />
-    <Footer />
-  </Fragment>
-);
+const IndexPage = ({ data }) => {
+  console.log(data.allMarkdownRemark.edges)
+  return (
+    <Fragment>
+      <Header />
+      <Banner />
+      <AllProjects data={data.allMarkdownRemark.edges} />
+      <Footer />
+    </Fragment>
+  );
+};
 
 export default IndexPage;
+
+export const homeQuery = graphql`
+  query homeQuery{
+    allMarkdownRemark {
+    edges {
+      node {
+        id
+         frontmatter {
+          title
+          subtitle
+          path
+          preview
+         }
+      }
+    }
+  }
+  }
+`;

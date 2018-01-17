@@ -1,13 +1,15 @@
 import React from 'react';
+import Link from 'gatsby-link';
 
-const Tile = () => (
+
+const Tile = props => (
   <article>
     <span className="image">
-      <img src="/images/pic01.jpg" alt="" />
+      <img src={props.image} alt="" />
     </span>
     <header className="major">
-      <h3><a href="landing.html" className="link">Aliquam</a></h3>
-      <p>Ipsum dolor sit amet</p>
+      <h3><Link to={props.link} className="link">{props.title}</Link></h3>
+      <p>{props.description}</p>
     </header>
   </article>
 );
