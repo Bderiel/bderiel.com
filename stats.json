@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-8fd799b99b3e98adeb77.js",
-      "component---src-pages-index-js-8fd799b99b3e98adeb77.js.map"
+      "component---src-pages-index-js-64585b7e51c55cc772f4.js",
+      "component---src-pages-index-js-64585b7e51c55cc772f4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,12 +21,12 @@
       "component---src-layouts-index-js-637b3eb4fe82411bba5f.js.map"
     ],
     "path---genie": [
-      "path---genie-4a34a0d34775b9ba70d2.js",
-      "path---genie-4a34a0d34775b9ba70d2.js.map"
+      "path---genie-cf8319c7f5b56c64bbd6.js",
+      "path---genie-cf8319c7f5b56c64bbd6.js.map"
     ],
     "path---index": [
-      "path---index-045191a3509b4059d4fe.js",
-      "path---index-045191a3509b4059d4fe.js.map"
+      "path---index-c9e82b69b2a8e930c86e.js",
+      "path---index-c9e82b69b2a8e930c86e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -51,9 +51,9 @@
       "path---lo-l-runed-my-life-e30fc679caabff4276d4.js.map"
     ],
     "app": [
-      "app-bc8990bc21c9bb1b880c.js",
+      "app-486529f2bede4016b0e7.js",
       "build-js-styles.css",
-      "app-bc8990bc21c9bb1b880c.js.map",
+      "app-486529f2bede4016b0e7.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
