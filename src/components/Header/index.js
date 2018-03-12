@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const Header = () => (
   <header id="header" className="alt">
-    <a href="index.html" className="logo"><strong>Brian</strong> <span>Deriel</span></a>
+    <Link to="/" className="logo"><strong>Brian</strong> <span>Deriel</span></Link>
   </header>
 );
 

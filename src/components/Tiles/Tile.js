@@ -1,12 +1,14 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import Link, { withPrefix } from 'gatsby-link';
 
 
 const Tile = props => (
-  <article>
-    <span className="image">
-      <img src={props.image} alt="" />
-    </span>
+  <article style={{
+    backgroundImage: `url(${props.image})`,
+  }
+}
+  >
+    <span className="image" />
     <header className="major">
       <h3><Link to={props.link} className="link">{props.title}</Link></h3>
       <p>{props.description}</p>

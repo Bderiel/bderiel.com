@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import Link, { withPrefix } from 'gatsby-link';
 import { Carousel } from 'react-responsive-carousel';
 import '../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css';
 import Header from '../components/Header';
@@ -24,8 +24,8 @@ export default function Template({
         </div>
         <div className="content">
           <ul className="actions">
-            {skills.map(el => (
-              <li><span className="button">{el}</span></li>
+            {skills.map(skill => (
+              <li><span className="button">{skill}</span></li>
             ))}
           </ul>
         </div>
@@ -43,9 +43,9 @@ export default function Template({
         interval={3000}
         showArrows={false}
       >
-        {images.map(el => (
+        {images.map(pic => (
           <div className="photo-carousel">
-            <img alt="failfish" src={el} />
+            <img alt="failfish" src={withPrefix(pic)} />
           </div>
         ))}
       </Carousel>

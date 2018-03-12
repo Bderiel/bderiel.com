@@ -7,7 +7,6 @@ import AllProjects from '../components/Tiles';
 import Footer from '../components/Footer';
 
 const IndexPage = ({ data }) => {
-  console.log(data.allMarkdownRemark.edges)
   return (
     <Fragment>
       <Header />
