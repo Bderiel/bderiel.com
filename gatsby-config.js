@@ -8,19 +8,17 @@ module.exports = {
       name: 'src',
       path: `${__dirname}/src/`,
     },
-  }, 'gatsby-plugin-react-next', 'gatsby-transformer-remark', 'gatsby-plugin-react-helmet', 'gatsby-plugin-sass',
+  },
   {
-    resolve: 'gatsby-plugin-google-analytics',
+    resolve: 'gatsby-plugin-google-tagmanager',
     options: {
-      trackingId: 'UA-115539133-1',
-      // Puts tracking script in the head instead of the body
-      head: false,
-      // Setting this parameter is optional
-      anonymize: true,
-      // Setting this parameter is also optional
-      respectDNT: true,
+      id: 'UA-115539133-1',
+      // Include GTM in development.
+      // Defaults to false meaning GTM will only be loaded in production.
+      includeInDevelopment: false,
     },
-  }],
+  },
+  'gatsby-plugin-react-next', 'gatsby-transformer-remark', 'gatsby-plugin-react-helmet', 'gatsby-plugin-sass',
+  ],
 };
 
-// const t =

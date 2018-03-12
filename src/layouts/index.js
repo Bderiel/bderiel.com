@@ -11,8 +11,8 @@ const Main = ({ children }) => (
     <Helmet
       title="Brian's Personal Site"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Brian Deriel Software Engineer' },
+        { name: 'software', content: 'personal, software, engineer' },
       ]}
     />
     {children()}

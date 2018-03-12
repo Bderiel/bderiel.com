@@ -293,5 +293,21 @@
 }
 
 #bio{
-	font-size: 2em !important;
+	font-size: 1.75em !important;
+}
+
+.actions{
+	position: absolute !important;
+  margin-left: 80% !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#bio{
+	font-size: 1.00em !important;
+}
+.actions{
+	position: absolute !important;
+  margin-left: 58% !important;
+}
 }

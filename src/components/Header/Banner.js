@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
-const quotes = ['I AM A SOFTWARE ENGINEER', 'I AM A PROBLEM SOLVER', 'I AM A TEAM PLAYER', 'I AM AVAILABLE FOR HIRE', 'I AM JSMASTER', 'ARE YOU STILL HERE?', 'I THINK KANYE IS A GENIUS', 'HOW MANY OF THESE DID HE WRITE?'];
+const quotes = ['I AM A SOFTWARE ENGINEER', 'I AM A PROBLEM SOLVER', 'I AM A TEAM PLAYER', 'I AM passionate', 'I AM AVAILABLE FOR HIRE', 'I AM JSMASTER', 'ARE YOU STILL HERE?', 'I THINK KANYE IS A GENIUS', 'HOW MANY OF THESE DID HE WRITE?', 'Maybe it is an api?', 'JKING', 'Rebooting Loop Sequence', 'beep boop beep boop'];
 import mugshot from '../../../img/mugshot.jpg';
 
 class Banner extends Component {
