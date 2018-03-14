@@ -23,7 +23,7 @@ export default function Template({
           <p>{post.frontmatter.subtitle}</p>
         </div>
         <div className="content">
-          <ul className="actions">
+          <ul className="skills">
             {skills.map(skill => (
               <li><span className="button">{skill}</span></li>
             ))}
@@ -55,7 +55,7 @@ export default function Template({
           <h1 className="post-title">About Project:</h1>
           <div className="description" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
-        <ul className="actions post-buttons">
+        <ul className="skills post-buttons">
           <li><a href={post.frontmatter.projectLink} className="button">Link</a></li>
           <li><a href={post.frontmatter.gitLink} className="icon alt fa-github"><span className="label">GitHub</span></a></li>
         </ul>
